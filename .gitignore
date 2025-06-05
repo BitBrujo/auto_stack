@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Caddy (SSL certs, config)
+caddy/data/
+caddy/config/
+
+# Supabase (Postgres data, init scripts, storage)
+supabase/db/data/
+supabase/db/init/
+supabase/storage/
+supabase/config/kong.yml
+
+# n8n (workflow data)
+n8n/
+
+# DuckDNS logs
+duckdns/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# System files
+.DS_Store
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
